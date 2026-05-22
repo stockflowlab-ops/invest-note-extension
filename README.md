@@ -1,9 +1,11 @@
 # Smart Page Extractor
 
+投資ニュースやWeb記事を自動で構造化し、Obsidianの知識ベースへ変換するためのChrome拡張です。
+
+記事抽出・銘柄検出・ノート生成を自動化し、「読む投資情報」を「再利用できる投資データ」へ変換します。
+
 ![Screenshot](images/screenshot.png)
 ![Screenshot](images/obsidian.png)
-
-投資ニュースをMarkdown形式で保存し、Obsidianで管理するためのChrome拡張です。
 
 ---
 
@@ -12,14 +14,21 @@
 - Web記事をMarkdown形式で保存
 - 銘柄コードを自動抽出
 - 銘柄別インデックスノートを生成
-- Obsidianとの連携に対応
+- Obsidian Vaultへ直接ノート保存
 
 ---
 
 ## 対応サイト
 
-- 株探（Kabutan）の注目記事  
+- 株探（Kabutan）の注目ニュース系ページ
+  
 https://kabutan.jp/news/marketnews/?category=9
+
+---
+
+## ダウンロード
+
+GitHub Releases から最新版をダウンロードしてください。
 
 ---
 
@@ -33,8 +42,9 @@ https://kabutan.jp/news/marketnews/?category=9
 
 Obsidian公式サイト：  
 https://obsidian.md/
-1. 公式サイトからObsidianをダウンロードしてインストールしてください。
-2. Vault（保管庫）を新規作成して、Obsidianで保管庫を開いてください。
+
+1. 公式サイトからObsidianをダウンロードしてインストール
+2. Vault（保管庫）を新規作成して開く
 
 ---
 
@@ -86,7 +96,7 @@ https://obsidian.md/
 1. Chromeで `chrome://extensions/` を開く
 2. 右上の「デベロッパーモード」をONにする
 3. 「パッケージ化されていない拡張機能を読み込む」を選択
-4. 本拡張のフォルダを指定する
+4. ダウンロードしたZIPファイルを展開し、展開後のフォルダを指定する
 5. Chrome拡張の設定画面でObsidianのAPIキーを入力
 
 ---
@@ -97,5 +107,13 @@ https://obsidian.md/
 2. Chrome拡張を開く
 3. 「記事を保存」を押す
 4. MarkdownファイルがObsidian Vault内へ保存される
-5. 「銘柄別インデックス」を押すと銘柄別インデックスノートも自動生成される
+5. 「銘柄別インデックス」を押すと、銘柄別インデックスノートが自動生成される
 
+---
+
+## こんな方におすすめ
+
+- 投資ニュースをあとから見返したい
+- Obsidianで投資メモを管理したい
+- 銘柄ごとにニュースを整理したい
+- AI分析用のMarkdownデータを蓄積したい
