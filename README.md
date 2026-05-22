@@ -1,4 +1,4 @@
-# Smart Page Extractor
+# Smart Page Extractor(スマート記事抽出）
 
 投資ニュースやWeb記事を自動で構造化し、Obsidianの知識ベースへ変換するためのChrome拡張です。
 
