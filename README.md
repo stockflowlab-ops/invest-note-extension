@@ -30,7 +30,7 @@
 GitHub Releases から最新版をダウンロードしてください。
 
 最新版はこちら：
-https://github.com/xxxx/releases
+https://github.com/stockflowlab-ops/invest-note-extension/releases/download/v1.0.0/SmartPageExtractor_v1.0.0.zip
 
 ---
 
