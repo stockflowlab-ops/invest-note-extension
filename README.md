@@ -1,6 +1,7 @@
 # Smart Page Extractor
 
 ![Screenshot](images/screenshot.png)
+![Screenshot](images/obsidian.png)
 
 投資ニュースをMarkdown形式で保存し、Obsidianで管理するためのChrome拡張です。
 
